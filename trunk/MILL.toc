@@ -1,0 +1,12 @@
+\select@language {greek}
+\select@language {brazilian}
+\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o, por Ari R. Tank Brito}{9}
+\contentsline {part}{\MakeTextLowercase {sobre a liberdade}}{31}
+\contentsline {chapter}{Dedicat\IeC {\'o}ria}{35}
+\contentsline {chapter}{Cap\IeC {\'\i }tulo introdut\IeC {\'o}rio}{37}
+\contentsline {chapter}{Sobre a liberdade}{57}
+\contentsline {chapter}{Da individualidade}{113}
+\contentsline {chapter}{Dos limites da autoridade}{141}
+\select@language {polutonikogreek}
+\select@language {brazilian}
+\contentsline {chapter}{Aplica\IeC {\c c}\IeC {\~o}es}{170}

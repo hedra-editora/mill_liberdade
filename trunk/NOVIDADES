@@ -1,0 +1,57 @@
+AVISOS
+	- Não existe mais a opção "mataviúvas". 
+	- Não é preciso colocar mais "~" em, por exemplo, "Sr.~" em notas de rodapé.
+	- Para colocar o título do livro/autor no cabeço, usar \pagestyle{part} em AUTOR.tex
+	- Não é preciso mais \noindent no primeiro parágrafo em abertura de capítulo.
+	- Criamos pacotes para teatro. 
+
+RECOMENDAÇÕES
+	- Colocar o nome do autor ou nomes estrangeiros muito citados em \hyphenation, em AUTOR.tex
+	- Lembrar de apagar todos os pacotes não utilizados do projeto.
+	- Colocar quebra de hifenização (\hyphenation) dentro do pacote hedraextra.sty (25/ago J.)
+
+MODIFICAÇÕES RECENTES
+	- [hedrabook] \frenchspacing nas notas.
+	- [hedraendnotes] foi inteiramente reformado. agora ele conta com as opções "section" e "chapter*":
+	  que coloca as notas com peso de section, na primeira opção, e na segunda, "chapter*", apenas
+	  elimina as notas do sumário. Por default, o peso de abertura da seção para as notas de fim 
+	  é o mesmo de qualquer "chapter".
+	- [hedraextra] criei um comando para abertura de fala em entrevistas chamado "\fala{}"
+	- [hedracrop] foi totalmente reformulado. Está sem documentação. Usar opção "svn" para jogar 
+	  info no cabeço.
+	- [hedraextra] Adequei o tamanho da section e \sectionitem e coloquei mais espaços para evitar quebras
+	- [hedrabook] Proibi primeira linha quebrada. 
+	- [hedrabook] Consertei numeração de notas que não recomeçava. 
+	- [hedrabolsolayout] Acertei o cabeço. Agora é possível usar o \hedramarkboth sem restrição. 
+	- [hedrabolsolayout] Conserte problemas no cabeço. Agora temos toda liberdade com cabecos!
+
+A FAZER
+	1. Melhorar as páginas pretas. 
+		- Dividir em pacotes:
+		a. hedralogo.sty
+		b. hedrafichacatalografica.sty
+		- Criar \if para página preta de uma página, para evitar ter que lembrar do "\ \\".
+	2. Acertar data automática nas pretas (desativei estrutura do Marcelo com rsY?)
+	3. Acertar espaço entre notas (sugestão do Roberto)
+	4. Reestruturar a mancha (ver blog)
+	5. Escrever documentação com docstrip.
+	6. Criar classe para coleção de cordel.
+	7. criar opção \section no pacote hedraendotes
+
+ARQUIVOS
+       classes:
+	hedrabook.cls
+	hedraoctavo.cls
+       pacotes:
+	hedrabolsolayout.sty 
+	hedracrop.sty
+	hedraextra.sty
+	hedraindex.sty
+	hedrateatro.sty
+	hedratoc.sty
+       extras:
+	verificador
+	dic.sh
+	dic.pws
+
+VERIFICADOR (sugestões)
